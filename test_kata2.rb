@@ -13,6 +13,12 @@ class TestKata2 < Minitest::Test
 		assert_equal('Mined', minedMindsKata(3))
 	end
 
+	def test_function_returns_0
+
+		assert_equal("Mined Minds", minedMindsKata(0))
+
+	end
+
 	def test_function_returns_Minds
 
 		assert_equal('Minds', minedMindsKata(5))
