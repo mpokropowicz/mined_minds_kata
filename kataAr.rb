@@ -7,7 +7,7 @@ def mindMindsKataArry()
 		if n % 15 == 0
 			array[n] = "Mined Minds"
 		elsif n % 3 == 0
-			array[n] = "Mind"
+			array[n] = "Mined"
 		elsif n % 5 == 0
 			array[n] = "Minds"
 		else 

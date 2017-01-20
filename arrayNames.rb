@@ -15,3 +15,8 @@ def randomPair(names)
 
 	pairs
 end
+
+# print randomPair(["Allen Weber","Brian Lewis","Cummie Washington","Dover Hellfeldt","Edwin Wells","Frank Mugo","Frank Coleman","George Bruner",
+# 			  "Jayvon Harris","John Verbosky","Khalifa Cochran","Lee Brown","Lisa Petrovich","Matt Teitz","Max Pokropowicz","Mike Ciletti",
+# 			  "Pat Wehman","Patrick Roberts","Sherri Dyson","Takhir Salimov","Teela Subba"
+# 			  ])

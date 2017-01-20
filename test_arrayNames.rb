@@ -20,7 +20,7 @@ class TestKataAr < Minitest::Test
 			  ]
 		results = randomPair(ary)
 
-		refute_equal(ary, results.sort) #doesn't work if results is paired but still ordered
+		refute_equal(ary, results.sort) #doesn't work if results is paired
 	end
 
 	def test_Array_Paired
