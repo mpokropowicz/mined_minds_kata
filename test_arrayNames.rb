@@ -3,6 +3,7 @@ require_relative "arrayNames.rb"
 
 class TestKataAr < Minitest::Test
 
+	#depricated test
 	# def test_Array_Paired
 
 	# 	ary = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j','k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u']
@@ -13,7 +14,10 @@ class TestKataAr < Minitest::Test
 
 	def test_Array_Random
 
-		ary = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j','k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u']
+		ary = ["Allen Weber","Brian Lewis","Cummie Washington","Dover Hellfeldt","Edwin Wells","Frank Mugo","Frank Coleman","George Bruner",
+			  "Jayvon Harris","John Verbosky","Khalifa Cochran","Lee Brown","Lisa Petrovich","Matt Teitz","Max Pokropowicz","Mike Ciletti",
+			  "Pat Wehman","Patrick Roberts","Sherri Dyson","Takhir Salimov","Teela Subba"
+			  ]
 		results = randomPair(ary)
 
 		refute_equal(ary, results.sort) #doesn't work if results is paired but still ordered
@@ -21,7 +25,10 @@ class TestKataAr < Minitest::Test
 
 	def test_Array_Paired
 
-		ary = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j','k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u']
+		ary = ["Allen Weber","Brian Lewis","Cummie Washington","Dover Hellfeldt","Edwin Wells","Frank Mugo","Frank Coleman","George Bruner",
+			  "Jayvon Harris","John Verbosky","Khalifa Cochran","Lee Brown","Lisa Petrovich","Matt Teitz","Max Pokropowicz","Mike Ciletti",
+			  "Pat Wehman","Patrick Roberts","Sherri Dyson","Takhir Salimov","Teela Subba"
+			  ]
 		results = randomPair(ary)
 		pairs = 0
 
