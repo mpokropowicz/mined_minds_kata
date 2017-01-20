@@ -10,4 +10,13 @@ class TestKataAr < Minitest::Test
 		
 		assert_equal(ary.size()/2, results.size())
 	end
+
+	def test_Array_Random
+
+		ary = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j','k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u']
+		results = randomPair(ary)
+
+		refute_equal(ary, results.sort) #doesn't work if results is paired but still ordered
+	end
+
 end
