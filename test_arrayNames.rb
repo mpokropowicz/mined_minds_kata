@@ -34,7 +34,7 @@ class TestKataAr < Minitest::Test
 
 		results.map do |e|
 
-			if e.size != 1 #as long as there is no name that does't have at least one pair we're good
+			if e.size != 1 #as long as there is no name that does't have at least one pair, we're good
 				pairs += 1
 			end
 		end
