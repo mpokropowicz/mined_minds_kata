@@ -1,1 +1,2 @@
-#mined_minds_kata
+#  Katas
+Various simple exersises
